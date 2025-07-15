@@ -49,6 +49,14 @@ Odonto é um sistema completo para gestão de clínicas odontológicas, desenvol
 
 ### Autenticação
 - Realize login via `/api/auth/login` para obter um token JWT.
+- Para conseguir realizar o login, se você não tiver um usuário no banco, crie pelo Postman fazendo uma requisição para `/api/auth/register` e envie como corpo da requisição:
+   ```bash
+   {
+      "nome": "Seu nome",
+      "email": "seuemail@gmail.com",
+      "senha": "suasenha"
+   }
+   ´´´
 - Envie o token no header `Authorization: Bearer <token>` para acessar os endpoints protegidos.
 
 ### Exemplos de Endpoints
