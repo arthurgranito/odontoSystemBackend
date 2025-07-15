@@ -72,7 +72,7 @@ Veja a documentação OpenAPI/Swagger (se disponível) para detalhes completos d
 odonto/
 ├── src/
 │   ├── main/
-│   │   ├── java/com/renato/odonto/...
+│   │   ├── java/com/system/odonto/...
 │   │   └── resources/
 │   └── test/
 ├── pom.xml
@@ -90,9 +90,9 @@ odonto/
 Este projeto está licenciado sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
 ## Contato
-- Desenvolvedor: Renato (ou seu nome)
-- Email: seu.email@dominio.com
-- LinkedIn: [Seu LinkedIn](https://www.linkedin.com/in/seu-usuario)
+- Desenvolvedor: Arthur Granito
+- Email: arthurgranitodev@gmail.com
+- LinkedIn: [Seu LinkedIn](https://www.linkedin.com/in/arthurgranito)
 
 ---
 
