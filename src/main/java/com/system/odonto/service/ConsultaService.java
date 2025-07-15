@@ -1,9 +1,7 @@
 package com.system.odonto.service;
 
-import com.renato.odonto.model.*;
 import com.system.odonto.model.*;
 import com.system.odonto.model.enums.ConsultaStatus;
-import com.renato.odonto.repository.*;
 import com.system.odonto.repository.AgendaDiponivelRepository;
 import com.system.odonto.repository.ConsultaRepository;
 import com.system.odonto.repository.PacienteRepository;
