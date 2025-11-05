@@ -10,10 +10,4 @@ COPY --from=build /app/target/*.jar app.jar
 
 EXPOSE 8080
 
-ENV PORT=8080
-ENV SPRING_DATASOURCE_URL=jdbc:postgresql://localhost:5432/odontosystem
-ENV SPRING_DATASOURCE_USERNAME=postgres
-ENV SPRING_DATASOURCE_PASSWORD=postgres
-ENV SPRING_JPA_HIBERNATE_DDL_AUTO=update
-
 ENTRYPOINT ["java", "-jar", "app.jar"]
